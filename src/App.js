@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import DessertsList from './DessertsList';
 
 const desserts = [
   {
@@ -27,7 +28,7 @@ const desserts = [
 function App() {
   return (
     <div className="App">
-
+      <DessertsList data={desserts} />
     </div>
   );
 }
